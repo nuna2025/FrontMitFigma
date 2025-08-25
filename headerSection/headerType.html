@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headertype01</title>
+    <style>
+        /* fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+        .macondo-regular {
+            font-family: "Macondo", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        li {
+            list-style: none;
+        }
+        em {
+            font-style: normal;
+        }
+
+        /* headerType */
+        #headerType {}
+        .header__wrap {}
+        .header__inner {
+            width: 100%;
+            height: 70px;
+            /* background-color: #ccc; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ccc;
+        }
+        .header__logo {
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            /* background: #ccc; */
+            width: 20%;
+        }
+        .header__logo em {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .header__menu {
+            /* background: #555; */
+            width: 60%;
+            text-align: center;
+        }
+        /*.header__menu ul {} */
+        
+        .header__menu li {
+            display: inline;
+        }
+        .header__menu li a {
+            padding: 13px 30px;
+            margin: 5px;
+            transition: background-color 0.33s;
+        }
+        .header__menu li a:hover {
+            background-color: #f1f1f1;
+            border-radius: 5px;
+        }
+        .header__member {
+            /* background: #999; */
+            width: 20%;
+            text-align: right;
+        }
+        .header__member a {
+            font-size: 16px;
+            border: 1px solid #000;
+            padding: 10px 30px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header id="headerType" class="header__wrap macondo-regular">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="#">web <em>site</em></a>
+            </div>
+            <nav class="header__menu">
+                <ul>
+                    <li><a href="#">headerSection</a></li>
+                    <li><a href="#">slideSection</a></li>
+                    <li><a href="#">bannerSection</a></li>
+                    <li><a href="#">contentsSection</a></li>
+                    <li><a href="#">footerSection</a></li>
+                </ul>
+
+            </nav>
+            <div class="header__member">
+                <a href="#">login</a>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
