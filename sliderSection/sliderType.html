@@ -118,7 +118,29 @@
             right: 20px;
             background-position: -50px 0;
         }
-        .slider__dot {}
+        .slider__dot {
+            position: absolute;
+            left: 50%;
+            bottom: 25px;
+            transform: translateY(-50%);
+        }
+        .slider__dot a {
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            background-image: url(./img/slider\ icon.svg);
+            background-position: -20px -70px;
+        }
+        .slider__dot a.active {
+            background-position: 0 -70px;
+        }
+        .slider__dot a.play {
+            background-position: -41px -70px;
+        }
+        .slider__dot a.stop {
+            background-position: -61px -70px;
+        }
+
 
     </style>
 </head>
@@ -146,7 +168,13 @@
                     <a href="/" class="left"><span class="ir">previous image</span></a>
                     <a href="/" class="right"><span class="ir">next image</span></a>
                 </div>
-                <div class="slider__dot"></div>
+                <div class="slider__dot">
+                    <a href="/" class="dot active"><span class="ir">1</span></a>
+                    <a href="/" class="dot"><span class="ir">2</span></a>
+                    <a href="/" class="dot"><span class="ir">3</span></a>
+                    <a href="/" class="play"><span class="ir">play</span></a>
+                    <a href="/" class="stop"><span class="ir">stop</span></a>
+                </div>
 
             </div>
         </div>
