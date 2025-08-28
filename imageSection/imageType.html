@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageType01</title>
+    <style>
+         /* fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+        .macondo-macondo {
+            font-family: "Macondo", cursive;
+            font-weight: 400;
+            /* font-style: normal; */
+        }
+        
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: normal;
+        }
+
+        /* common */
+        .container {
+            width: 1160px;
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 120px 0;
+            text-align: center;
+        }
+        .section > h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .section > p {
+            font-size: 22px;
+            font-weight: 300;
+            margin-bottom: 70px;
+        }
+
+        /* imageType */
+        #imageType {
+            background: #ccc;
+            height: 500px;
+        }
+
+        /* Not reusable
+        By adding and removing utility extra classes (ex.section), 
+        we can enhance the reusability of our components.
+        
+        .image__wrap {
+            text-align: center;
+        }
+        .image__wrap h2 {
+            font-size: 50px;
+        }
+        .image__wrap p {
+            font-size: 22px;
+        } */
+        .image__inner {}
+    </style>
+</head>
+<body>
+    <section id="imageType" class="image__wrap macondo-macondo section">
+        <h2>Practice image types</h2>
+        <p>This is a type of image. When you hover over it with your mouse, more detailed information appears.</p>
+        <div class="image__inner container">
+            <div class="image">image1</div>
+            <div class="image">image2</div>
+        </div>
+    </section>
+</body>
+</html>
