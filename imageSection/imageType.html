@@ -28,25 +28,27 @@
             width: 1160px;
             padding: 0 20px;
             margin: 0 auto;
+            /* background:#aaa; */
         }
         .section {
             padding: 120px 0;
-            text-align: center;
         }
         .section > h2 {
             font-size: 50px;
             margin-bottom: 20px;
+            text-align: center;
         }
         .section > p {
             font-size: 22px;
             font-weight: 300;
             margin-bottom: 70px;
+            text-align: center;
         }
 
         /* imageType */
         #imageType {
-            background: #ccc;
-            height: 500px;
+            /* background: #ccc;
+            height: 500px; */
         }
 
         /* Not reusable
@@ -62,7 +64,25 @@
         .image__wrap p {
             font-size: 22px;
         } */
-        .image__inner {}
+        .image__wrap {}
+        .image__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        .image {
+            width: 49%;
+            height: 370px;
+        }
+        .image.img1 {
+            background: url(./imgT/image-bg01-min.jpg) no-repeat center / cover ;
+        }
+        .image.img2 {
+            background: url(./imgT/image-bg02-min.jpg) no-repeat center / cover ;
+
+        }
+        .image__title {}
+        .image__desc {}
+        .image__btn {}
 
     </style>
 </head>
@@ -71,18 +91,18 @@
         <h2>Practice image types</h2>
         <p>This is a type of image. When you hover over it with your mouse, more detailed information appears.</p>
         <div class="image__inner container">
-            <article class="image">
-                <h3>Celebrity of the dog world</h3>
-                <p>The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
+            <article class="image img1">
+                <h3 class="image__title">Celebrity of the dog world</h3>
+                <p class="image__desc">The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
                     is called a "Babichon" because its appearance is very similar to the very small Barbet.</p>
-                <a href="/">View details</a>
+                <a class="image__btn" href="/">View details</a>
                 <!-- <img src="./imgT/image-bg01-min.jpg" alt="cute dog image" /> -->
             </article>
-            <article class="image">
-                <h3>Mascot of the dog world</h3>
-                <p>The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
+            <article class="image img2">
+                <h3 class="image__title">Mascot of the dog world</h3>
+                <p class="image__desc">The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
                     is called a "Babichon" because its appearance is very similar to the very small Barbet.</p>
-                <a href="">View details</a>
+                <a class="image__btn" href="">View details</a>
                 <!-- <img src="./imgT/image-bg02-min.jpg" alt="mascot dog image" /> -->
             </article>
         </div>
