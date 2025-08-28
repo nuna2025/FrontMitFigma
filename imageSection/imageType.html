@@ -19,6 +19,10 @@
             margin: 0;
             padding: 0;
         }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
         h1, h2, h3, h4, h5, h6 {
             font-weight: normal;
         }
@@ -43,6 +47,7 @@
             font-weight: 300;
             margin-bottom: 70px;
             text-align: center;
+            color: #777;
         }
 
         /* imageType */
@@ -72,6 +77,9 @@
         .image {
             width: 49%;
             height: 370px;
+            padding: 200px 30px 30px 30px;
+            box-sizing: border-box;
+            color: #fff;
         }
         .image.img1 {
             background: url(./imgT/image-bg01-min.jpg) no-repeat center / cover ;
@@ -80,9 +88,41 @@
             background: url(./imgT/image-bg02-min.jpg) no-repeat center / cover ;
 
         }
-        .image__title {}
-        .image__desc {}
-        .image__btn {}
+        .image__title {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .image__desc {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            padding-right: 100px;
+
+            /* 2-line effect */
+            /* display: -webkit-box; Treats the text as a box. */
+            /* -webkit-box-orient: vertical; Specifies the text direction vertically. */
+            /* overflow: hidden; Hides the overflowing text. */
+            /* text-overflow: ellipsis; Adds an ellipsis to the overflowing text. */
+            /* -webkit-line-clamp: 2; Limits the text to a maximum of 2 lines. */
+            /* width: 200px; Sets the required width. */
+
+            /* 2줄 효과 */
+            /* display: -webkit-box;  텍스트를 박스 형태로 다룹니다. */
+            /* -webkit-box-orient: vertical; 텍스트 방향을 세로로 지정합니다. */
+            /* overflow: hidden; 넘치는 텍스트를 숨깁니다 [4]. */
+            /* text-overflow: ellipsis; 넘치는 텍스트에 말줄임표를 추가합니다 [4]. */
+            /* -webkit-line-clamp: 2; 텍스트를 최대 2줄로 제한합니다 [4, 7]. */
+            /* width: 200px; 필요한 너비를 설정합니다. */ 
+        }
+
+           
+        .image__btn {
+            font-size: 16px;
+            font-weight: normal;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px 20px;
+        }
 
     </style>
 </head>
