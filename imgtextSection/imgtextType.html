@@ -125,7 +125,24 @@
         }
         .imgText__img {
             border-radius: 10px;
+            position: relative;
         }
+        .imgText__img a {
+            background: rgba(200, 0, 0, 0.3);
+            padding: 10px 30px;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 30px;
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            bottom: 30px;
+        }
+        .imgText__img a.blue {
+            background: rgba(0, 0, 200, 0.3);
+        }
+
+
         .imgText__img.img1 {
             background: url(./imgTT/imbText_bg01-min.jpg) no-repeat center / cover;
         }
@@ -155,7 +172,7 @@
                 <a href="/">Reference website</a>
             </div>
             <div class="imgText__img img2">
-                <a href="/">Tutorial website</a>
+                <a href="/" class="blue">Tutorial website</a>
             </div>
         </div>
     </section>
