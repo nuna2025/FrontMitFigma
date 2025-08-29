@@ -19,18 +19,50 @@
             text-indent: -9999px;
         }
 
-        /* imgTextType */
-        .imgText__wrap {
-            width: 100%;
-            height: 500px;
-            background: #ccc;
+        /* common */
+        .container {
+            width: 1160px;
+            padding: 0 20px;
+            margin: 0 auto;
+            background: red;
         }
+        .section {
+            padding: 120px 0;
+        }
+
+        /* imgTextType */     
+        .imgText__wrap {
+            /* width: 100%;
+            height: 500px; */
+            background: #ccc;
+        } 
+        .imgText__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .imgText__inner > div {
+            width: 32%;
+            height: 500px;
+            background: #777;
+        }
+
+        /* .imgText__txt {
+            width: 32%;
+            height: 500px;
+            background: #777;
+        }
+        .imgText__img {
+            width: 32%;
+            height: 500px;
+            background: #999;
+        } */
     </style>
 </head>
 <body>
-    <section id="imgTextType" class="imgText__wrap">
+    <section id="imgTextType" class="imgText__wrap section">
         <h2 class="blind">imgtextType</h2>
-        <div class="imgText__inner">
+        <div class="imgText__inner container">
             <div class="imgText__txt"></div>
             <div class="imgText__img"></div>
             <div class="imgText__img"></div>
