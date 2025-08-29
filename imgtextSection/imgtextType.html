@@ -19,6 +19,13 @@
             margin: 0;
             padding: 0;
         }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        li {
+            list-style: none;
+        }
         .blind {
             width: 0;
             height: 0;
@@ -33,7 +40,7 @@
             width: 1160px;
             padding: 0 20px;
             margin: 0 auto;
-            background: red;
+            /* background: red; */
         }
         .section {
             padding: 120px 0;
@@ -53,10 +60,11 @@
         .imgText__inner > div {
             width: 32%;
             height: 500px;
-            background: #777;
+            /* background: #777; */
         }
 
-        /* .imgText__txt {
+        /* same with .imgText__inner > div {}
+        .imgText__txt {
             width: 32%;
             height: 500px;
             background: #777;
@@ -66,6 +74,15 @@
             height: 500px;
             background: #999;
         } */
+        .imgText__img {
+            border-radius: 10px;
+        }
+        .imgText__img.img1 {
+            background: url(./imgTT/imbText_bg01-min.jpg) no-repeat center / cover;
+        }
+        .imgText__img.img2 {
+            background: url(./imgTT/imbText_bg02-min.jpg) no-repeat center / cover;
+        }
     </style>
 </head>
 <body>
@@ -85,10 +102,10 @@
                     <li><a href="/">YouTube websites</a></li>
                 </ul>
             </div>
-            <div class="imgText__img">
+            <div class="imgText__img img1">
                 <a href="/">Reference website</a>
             </div>
-            <div class="imgText__img">
+            <div class="imgText__img img2">
                 <a href="/">Tutorial website</a>
             </div>
         </div>
