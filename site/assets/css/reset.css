@@ -1,0 +1,130 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+fieldset,
+form,
+legend,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+button,
+figure, 
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* semantic tag block reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup, 
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* font reset */
+body,
+button,
+input,
+select,
+table,
+textarea {
+    color: #000;
+    font-family: "Macondo", cursive;
+}
+
+/* link styles reset*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* list styles reset */
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+/* heading styles reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+/* font styles reset */
+em, address {
+    font-style: normal;
+}
+
+/* display behavior of images reset */
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* borders reset */
+img, fieldset, button {
+    border: 0;
+}
+
+/* clearfix */
+.clearfix {
+    zoom: 1;
+}
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    line-height: 0;
+}
+.clearfix::after {
+    clear: both;
+}
+
+/* visually hidden class */
+.blind {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+}
+
+/* image replacement */
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px; 
+}

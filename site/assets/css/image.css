@@ -1,0 +1,35 @@
+        .image__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        .image {
+            width: 49%;
+            height: 370px;
+            padding: 200px 30px 30px 30px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+        .image.img1 {
+            background: url(../img/image-bg01-min.jpg) no-repeat center / cover ;
+        }
+        .image.img2 {
+            background: url(../img/image-bg02-min.jpg) no-repeat center / cover ;
+
+        }
+        .image__title {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .image__desc {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            padding-right: 100px;
+        }
+        .image__btn {
+            font-size: 16px;
+            font-weight: normal;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px 20px;
+        }
