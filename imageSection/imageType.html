@@ -11,7 +11,6 @@
         .macondo-macondo {
             font-family: "Macondo", cursive;
             font-weight: 400;
-            /* font-style: normal; */
         }
         
         /* reset */
@@ -32,7 +31,6 @@
             width: 1160px;
             padding: 0 20px;
             margin: 0 auto;
-            /* background:#aaa; */
         }
         .section {
             padding: 120px 0;
@@ -51,25 +49,6 @@
         }
 
         /* imageType */
-        #imageType {
-            /* background: #ccc;
-            height: 500px; */
-        }
-
-        /* Not reusable
-        By adding and removing utility extra classes (ex.section), 
-        we can enhance the reusability of our components.
-        
-        .image__wrap {
-            text-align: center;
-        }
-        .image__wrap h2 {
-            font-size: 50px;
-        }
-        .image__wrap p {
-            font-size: 22px;
-        } */
-        .image__wrap {}
         .image__inner {
             display: flex;
             justify-content: space-between;
@@ -82,10 +61,10 @@
             color: #fff;
         }
         .image.img1 {
-            background: url(./imgT/image-bg01-min.jpg) no-repeat center / cover ;
+            background: url(./img/image-bg01-min.jpg) no-repeat center / cover ;
         }
         .image.img2 {
-            background: url(./imgT/image-bg02-min.jpg) no-repeat center / cover ;
+            background: url(./img/image-bg02-min.jpg) no-repeat center / cover ;
 
         }
         .image__title {
@@ -97,25 +76,7 @@
             margin-bottom: 20px;
             line-height: 1.1;
             padding-right: 100px;
-
-            /* 2-line effect */
-            /* display: -webkit-box; Treats the text as a box. */
-            /* -webkit-box-orient: vertical; Specifies the text direction vertically. */
-            /* overflow: hidden; Hides the overflowing text. */
-            /* text-overflow: ellipsis; Adds an ellipsis to the overflowing text. */
-            /* -webkit-line-clamp: 2; Limits the text to a maximum of 2 lines. */
-            /* width: 200px; Sets the required width. */
-
-            /* 2줄 효과 */
-            /* display: -webkit-box;  텍스트를 박스 형태로 다룹니다. */
-            /* -webkit-box-orient: vertical; 텍스트 방향을 세로로 지정합니다. */
-            /* overflow: hidden; 넘치는 텍스트를 숨깁니다 [4]. */
-            /* text-overflow: ellipsis; 넘치는 텍스트에 말줄임표를 추가합니다 [4]. */
-            /* -webkit-line-clamp: 2; 텍스트를 최대 2줄로 제한합니다 [4, 7]. */
-            /* width: 200px; 필요한 너비를 설정합니다. */ 
         }
-
-           
         .image__btn {
             font-size: 16px;
             font-weight: normal;
@@ -136,14 +97,12 @@
                 <p class="image__desc">The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
                     is called a "Babichon" because its appearance is very similar to the very small Barbet.</p>
                 <a class="image__btn" href="/">View details</a>
-                <!-- <img src="./imgT/image-bg01-min.jpg" alt="cute dog image" /> -->
             </article>
             <article class="image img2">
                 <h3 class="image__title">Mascot of the dog world</h3>
                 <p class="image__desc">The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
                     is called a "Babichon" because its appearance is very similar to the very small Barbet.</p>
                 <a class="image__btn" href="">View details</a>
-                <!-- <img src="./imgT/image-bg02-min.jpg" alt="mascot dog image" /> -->
             </article>
         </div>
     </section>
