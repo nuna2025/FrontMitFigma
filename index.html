@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web programming practice</title>
+
+    <!-- SEO -->
+     <meta name="author" content="Nunaa">
+     <meta name="description" content="Practicing creating a web standards-compliant website">
+     <meta name="keywords" content="web standards-compliant, front-end, web designs">
+     <meta name="robots" content="all">
+
+    <!-- CSS(reset) -->
+     <link rel="stylesheet" href="./css/fonts.css"> 
+     <link rel="stylesheet" href="./css/reset.css">
+     <link rel="stylesheet" href="./css/common.css">
+
+    <!-- CSS(section) -->
+     <link rel="stylesheet" href="./css/header.css">   
+     <link rel="stylesheet" href="./css/slider.css">
+     <link rel="stylesheet" href="./css/image.css">
+     <link rel="stylesheet" href="./css/imgText.css">
+     <link rel="stylesheet" href="./css/card.css">
+     <link rel="stylesheet" href="./css/banner.css">
+     <link rel="stylesheet" href="./css/text.css">
+     <link rel="stylesheet" href="./css/footer.css">
+     
+</head>
+<body>
+    <div id="skip">
+        <a href="#headerType">Go to HeaderSection</a>
+        <a href="#sliderType">Go to SliderSection</a>
+        <a href="#imageType">Go to ImageSection</a>
+        <a href="#imgTextType">Go to ImgTextSection</a>
+        <a href="#cardType">Go to CardSection</a>
+        <a href="#bannerType">Go to BannerSection</a>
+        <a href="#textType">Go to TextSection</a>
+        <a href="#footerType">Go to FooterSection</a>
+    </div>
+    <!-- //skip -->
+
+    <header id="headerType" class="header__wrap macondo-regular">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="#">web <em>site</em></a>
+            </div>
+            <nav class="header__menu">
+                <ul>
+                    <li><a href="#">headerSection</a></li>
+                    <li><a href="#">slideSection</a></li>
+                    <li><a href="#">bannerSection</a></li>
+                    <li><a href="#">contentsSection</a></li>
+                    <li><a href="#">footerSection</a></li>
+                </ul>
+
+            </nav>
+            <div class="header__member">
+                <a href="#">login</a>
+            </div>
+        </div>
+    </header>
+    <!-- //headerType -->
+
+    <main id="mainType">
+        <section id="sliderType" class="slider__wrap macondo-regular">
+            <h2 class="blind">slider Type</h2>
+            <div class="slider__inner">
+                <div class="slider">
+                    <div class="slider__img">
+                        <div class="desc">
+                            <span>Developer</span>
+                            <h3>new project</h3>
+                            <p> 
+                                Developers, your code is changing the world. <br />
+                                Keep learning, keep challenging yourselves, and keep up the great work!
+                            </p>
+                            <div class="btn">
+                                <a href="/">View details</a>
+                                <a href="/" class="black">View site</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__arrow">
+                        <a href="/" class="left"><span class="ir">previous image</span></a>
+                        <a href="/" class="right"><span class="ir">next image</span></a>
+                    </div>
+                    <div class="slider__dot">
+                        <a href="/" class="dot active"><span class="ir">1</span></a>
+                        <a href="/" class="dot"><span class="ir">2</span></a>
+                        <a href="/" class="dot"><span class="ir">3</span></a>
+                        <a href="/" class="play"><span class="ir">play</span></a>
+                        <a href="/" class="stop"><span class="ir">stop</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- //sliderType -->
+
+        <section id="imageType" class="image__wrap macondo-macondo section">
+            <h2>Practice image types</h2>
+            <p>This is a type of image. When you hover over it with your mouse, more detailed information appears.</p>
+            <div class="image__inner container">
+                <article class="image img1">
+                    <h3 class="image__title">Celebrity of the dog world</h3>
+                    <p class="image__desc">The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
+                        is called a "Babichon" because its appearance is very similar to the very small Barbet.</p>
+                    <a class="image__btn" href="/">View details</a>
+                </article>
+                <article class="image img2">
+                    <h3 class="image__title">Mascot of the dog world</h3>
+                    <p class="image__desc">The Bichon Frise, which has become famous as a dog raised by many celebrities recently, 
+                        is called a "Babichon" because its appearance is very similar to the very small Barbet.</p>
+                    <a class="image__btn" href="">View details</a>
+                </article>
+            </div>
+        </section>
+        <!-- //imageType -->
+
+        <section id="imgTextType" class="imgText__wrap macondo-macondo section">
+            <h2 class="blind">imgtextType</h2>
+            <div class="imgText__inner container">
+                <div class="imgText__txt">
+                    <span class="small">Image Text Type 01</span>
+                    <h3 class="title">Useful Websites to Check Out</h3>
+                    <p class="desc">This is a list of useful websites for web designers, web publishers, front-end and back-end developers.</p>
+                    <ul class="list">
+                        <li><a href="/">Tutorial websites</a></li>
+                        <li><a href="/">Reference websites</a></li> 
+                        <li><a href="/">Web font websites</a></li> 
+                        <li><a href="/">CSS websites</a></li>
+                        <li><a href="/">WebGL websites</a></li>
+                        <li><a href="/">YouTube websites</a></li>
+                    </ul>
+                </div>
+                <div class="imgText__img img1">
+                    <a href="/">Reference website</a>
+                </div>
+                <div class="imgText__img img2">
+                    <a href="/" class="blue">Tutorial website</a>
+                </div>
+            </div>
+        </section>
+        <!-- //imgTextType -->
+
+        <section id="cardType" class="card__wrap macondo-macondo section">
+            <h2>Hobby Exploration Guide</h2>
+            <p>
+                A special guide for everyone <br />
+                who is finding and enjoying hobbies.
+            </p>
+            <div class="card__inner container">
+                <article class="card">
+                    <figure class="card__header">
+                        <img src="./img/card_img01-min.jpg" alt="Getting Started with Drawing">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="tit">Getting Started with Drawing</h3>
+                        <p class="desc">
+                        A guide to start drawing as a hobby. Learn basic drawing techniques and how to use various materials step by step. From simple examples, follow along gradually and spend time completing your own artwork. 
+                        </p>
+                        <a class="btn" href="/"> Learn More → </a>
+                    </div>
+                    
+                </article>
+                <article class="card">
+                    <figure class="card__header">
+                        <img src="./img/card_img02-min.jpg" alt="Introduction to Yoga & Meditation">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="tit">Introduction to Yoga & Meditation</h3>
+                        <p class="desc">
+                            Learn how to relieve daily stress and care for your body and mind. Through basic poses, breathing methods, and meditation techniques for beginners, you can build a healthy lifestyle. Discover the importance of consistency.
+                        </p>
+                        <a class="btn" href="/"> Learn More → </a>
+                    </div>
+                    
+                </article>
+                <article class="card">
+                    <figure class="card__header">
+                        <img src="./img/card_img03-min.jpg" alt="Gardening Techniques">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="tit">Gardening Techniques</h3>
+                        <p class="desc">
+                            Share the secrets of gardening that you can enjoy even in a small space. Provides practical information, from easy-to-grow plants for beginners to unique pot designs and efficient plant care methods.
+                        </p>
+                        <a class="btn" href="/"> Learn More → </a>
+                    </div>
+                    
+                </article>
+            </div>
+        </section>
+        <!-- //cardType -->
+
+        <section id="bannerType" class="banner__wrap macondo-macondo section">
+            <h2 class="blind">BannerSection</h2>
+            <div class="banner__inner ">
+                <h3 class="title">Software Developer Nunaa</h3>
+                <p class="desc">
+                    Every Problem is an Opportunity, Every Bug is a Teacher.
+                    <a href="/" title="for web page navigation">My Website</a>
+                </p>
+                <span class="small">bannerType01</span>
+            </div>
+        </section>
+        <!-- //bannerType -->
+
+        <section id="textType" class="test__wrap macondo-macondo section">
+            <span>textType01</span>
+            <h2>How to Master Music</h2>
+            <div class="text__inner container">
+                <div class="text t1">
+                    <h3 class="text__title">Music Search Mastery</h3>
+                    <p class="text_desc">Learn how to quickly and accurately find the music you want on digital music platforms. Master search techniques to create your perfect playlist.</p>
+                    <a class="text__btn" href="/">Learn More</a>
+                </div>
+                <div class="text t2">
+                    <h3 class="text__title">Music Chart Analysis</h3>
+                    <p class="text_desc">Systematically learn how to analyze music charts and ranking patterns. Understand market trends and learn to read the flow of the music industry.</p>
+                    <a class="text__btn" href="/">Learn More</a>
+                </div>
+                <div class="text t3">
+                    <h3 class="text__title">Music Quiz Challenge</h3>
+                    <p class="text_desc">Expand your music knowledge through quizzes about various genres and artists. Create fun music quizzes to enjoy with friends.</p>
+                    <a class="text__btn" href="/">Learn More</a>
+                </div>
+                <div class="text t4">
+                    <h3 class="text__title">Immersive 3D Audio Experience</h3>
+                    <p class="text_desc">Experience the principles and effects of 3D sound and immersive audio. Discover new ways to enjoy music through advanced audio technologies.</p>
+                    <a class="text__btn" href="/">Learn More</a>
+                </div>
+                <div class="text t5">
+                    <h3 class="text__title">Instrument Playing Techniques</h3>
+                    <p class="text_desc">Learn basic playing techniques for major instruments like guitar, piano, and drums. Step-by-step tutorials suitable for beginners.</p>
+                    <a class="text__btn" href="/">Learn More</a>
+                </div>
+                <div class="text t6">
+                    <h3 class="text__title">Music Production Basics</h3>
+                    <p class="text_desc">Begin your journey in creating your own music. Learn the fundamental processes of composition, arrangement, recording, and mixing through hands-on practice.</p>
+                    <a class="text__btn" href="/">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!-- //textType -->
+
+    </main>
+    <!-- //main -->
+
+    <footer id="footerType" class="footer__wrap macondo-macondo section">
+        <h2 class="blind">footerType</h2>
+        <div class="footer__inner container">
+            <div class="footer__menu">
+                <div>
+                    <h3>Website</h3>
+                    <ul>
+                        <li><a href="/">Tutorial websites</a></li>
+                        <li><a href="/">Reference websites</a></li>
+                        <li><a href="/">Web font websites</a></li>
+                        <li><a href="/">YouTube websites</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>HeaderSection</h3>
+                    <ul>
+                        <li><a href="/">headertype01</a></li>
+                        <li><a href="/">headertype02</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SliderSection</h3>
+                    <ul>
+                        <li><a href="/">slidertype01</a></li>
+                        <li><a href="/">slidertype02</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ImageSection</h3>
+                    <ul>
+                        <li><a href="/">imgtype01</a></li>
+                        <li><a href="/">imgtype02</a></li>
+                        <li><a href="/">imgtype03</a></li>
+                        <li><a href="/">imgtexttype01</a></li>
+                        <li><a href="/">imgtexttype02</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ContentsSection</h3>
+                    <ul>
+                        <li><a href="/">cardtype01</a></li>
+                        <li><a href="/">cardtype02</a></li>
+                        <li><a href="/">cardtype03</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>FooterSection</h3>
+                    <ul>
+                        <li><a href="/">footertype01</a></li>
+                        <li><a href="/">footertype02</a></li>
+                        <li><a href="/">footertype03</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_right">
+            2025 Developer Nu. Code Simpler, Think Deeper<br />All rights reserved.
+            </div>
+        </div>
+        
+    </footer>
+    <!-- //footerType -->
+</body>
+</html>
